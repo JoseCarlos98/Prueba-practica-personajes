@@ -1,0 +1,120 @@
+// @import "../node_modules/bootstrap/scss/bootstrap";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p, h1, h2, h3 ,h4, h5, span, label, button {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    background-color: white;
+    height: calc(100vh - 61px)!important;
+    overflow: auto;
+}
+
+.global-container {
+    padding: 30px 30px 0px 30px;
+}
+
+.titulo-formato {
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+    // color: #5B5B5B;
+    line-height: 30px;
+}
+
+.h1-formato {
+    font-weight: 700;
+    font-size: 24px;
+    color: #385A6D;
+    line-height: 30px;
+}
+
+.h2-formato {
+    font-weight: 600;
+    font-size: 22px;
+    color: black;
+    line-height: 30px;
+}
+
+.h3-formato {
+    font-weight: 500;
+    font-size: 20px;
+    color: #5B5B5B;
+    line-height: 30px;
+}
+
+
+.c-inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.c-inputs label{
+    font-size: 16px;
+    line-height: 24px;
+    color: #99999A;
+    font-weight: 400;
+}
+    
+.c-inputs .input-global{
+    appearance: none;
+    outline: none;
+    height: 45px;
+    width: 100%;
+    color: #5B5B5B;
+    border: 2px solid #ACACAC;
+    // margin-top: 5px;
+    font-size: 16px;
+    text-indent: 16px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.btn-format-global {
+    background: #385A6D;
+    color: white ;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid var(--color-base);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    // padding: 10px 31px 10px 31px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+@media screen and (max-width: 800px) {
+    .content {
+        width: 100%!important;
+    }
+    .sidebar {
+        width: 50px!important;
+    }
+    .sidebar-container {
+        display: none;
+    }
+}

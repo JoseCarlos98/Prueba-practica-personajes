@@ -1,0 +1,43 @@
+
+.sidebar{
+    background-color: #f8f8f8;
+    height: calc(100vh - 61px);
+    width: 300px;
+    overflow: auto;
+    .sbButtonList {
+        padding: 0px 20px 0px 40px;
+        .sbButton {
+            background-color: #f8f8f8;
+            padding: 0px 0px 0px 20px;
+            height: 44px;
+            width: 100%;
+            text-align: start;
+            border-radius: 8px;
+            border: 0cm;
+            border-radius: 4px;
+            padding-bottom: 4px;
+            height: 5vh;
+            width: 6vw;
+            .sbButtonText {
+                // display: none;
+            }
+        }
+        .sbButton:hover {
+            background-color: #d6dce1;
+        }
+    }
+}
+
+.sidebar-container {
+    padding: 41px 20px 0px 40px;
+    h1 {
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 20px;
+        color: #5B5B5B;
+        line-height: 30px;
+       }
+    .sidebar-user-list {
+        padding: 45px 0px 55px 0px;
+    }
+}

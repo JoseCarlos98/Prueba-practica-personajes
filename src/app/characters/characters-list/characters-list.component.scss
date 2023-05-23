@@ -1,0 +1,22 @@
+.table {
+  td {
+    img {
+        width: 100px;
+    }
+  }
+  .pagination {
+      a {
+          cursor: pointer;
+      }
+  }
+}
+
+.list {
+  overflow: auto;
+}
+
+.table-striped {
+  th:nth-child(1){
+    width: 100px;
+  }
+}
