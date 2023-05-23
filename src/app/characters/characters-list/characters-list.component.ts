@@ -11,7 +11,7 @@ export class CharactersListComponent implements OnInit, OnDestroy {
 
   @Input() characters: any[] = [];
   currentPage: number = 1;
-  pageSize: number = 5;
+  pageSize: number = 10;
 
   constructor() { }
 
