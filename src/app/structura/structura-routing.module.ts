@@ -8,7 +8,7 @@ export const routes: Routes = [
         path: '', 
         component: StructuraComponent,
         children:[
-            { path:'', redirectTo:'', pathMatch:'full' },
+            { path:'', redirectTo:'personajes', pathMatch:'full' },
             { path: 'personajes', loadChildren: () => import('../characters/characters.module').then(m => m.CharactersModule)  },
         ]
     }
